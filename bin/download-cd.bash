@@ -10,6 +10,7 @@ zip_file="file.zip"
 # Vstupní parametr pro cílovou složku
 output_directory="$1"
 
+
 # Výchozí složka pro případ, kdy není zadán žádný parametr
 default_directory="source"
 
