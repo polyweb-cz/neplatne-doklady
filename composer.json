@@ -1,0 +1,17 @@
+{
+  "name": "polyweb-cz/neplatne-doklady",
+  "type": "library",
+  "description": "Občanské průkazy a pasy evidované jako ztracené, odcizené, ze zákona neplatné. Stažená přes bash a vyhledavání v nich přes bash.\n",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": [
+    "MIT",
+    "GPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Petr Steinbauer",
+      "email": "peta.steinbauer@gmail.com"
+    }
+  ]
+}
