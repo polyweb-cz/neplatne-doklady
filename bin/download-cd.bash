@@ -1,6 +1,8 @@
 #!/bin/bash
 
 rm source/cd_vse.csv
+rm output_directory/cd_vse.csv
+
 # Přímý odkaz na soubor ke stažení
 download_url="https://aplikace.mvcr.cz/neplatne-doklady/ViewFile.aspx?typ_dokladu=2"
 
@@ -9,7 +11,6 @@ zip_file="file.zip"
 
 # Vstupní parametr pro cílovou složku
 output_directory="$1"
-
 
 # Výchozí složka pro případ, kdy není zadán žádný parametr
 default_directory="source"

@@ -1,6 +1,8 @@
 #!/bin/bash
 
 rm source/op_vse.csv
+rm output_directory/op_vse.csv
+
 # Přímý odkaz na soubor ke stažení
 download_url="https://aplikace.mvcr.cz/neplatne-doklady/ViewFile.aspx?typ_dokladu=0"
 
